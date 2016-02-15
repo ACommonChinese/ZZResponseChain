@@ -14,7 +14,9 @@ Any time a finger touches the screen, dragged on the screen, or lifts from the s
 3. 检查发现事件不在View B范围内发生，接下来检查View C发现触摸事件发生在View C中，于是检查它的子视图View D和View E
 4. 最后发现事件发生在View E的范围内，所以View E就成为了hit-test view（当然前提是View E可以处理点击事件，即它要是UIResponder的子类，并且没有禁掉识别事件的功能，如果View E不可以处理，则它会把这个事件交给它的下一个响应者，next responder来响应处理）
 看一段英文描述：  
->The **hitTest:withEvent:** method returns the hit test view for a given CGPoint and UIEvent. The hitTest:withEvent: method begins by calling the **pointInside:withEvent:** method on itself. If the point passed into hitTest:withEvent: is inside the bounds of the view, pointInside:withEvent: returns YES. Then, the method recursively calls hitTest:withEvent: on every subview that returns YES.
+
+> The **hitTest:withEvent:** method returns the hit test view for a given CGPoint and UIEvent. The hitTest:withEvent: method begins by calling the **pointInside:withEvent:** method on itself. If the point passed into hitTest:withEvent: is inside the bounds of the view, pointInside:withEvent: returns YES. Then, the method recursively calls hitTest:withEvent: on every subview that returns YES.  
+
 ![](./images/2.png)
 
 --------------------------------
@@ -22,7 +24,7 @@ Any time a finger touches the screen, dragged on the screen, or lifts from the s
 **下一个响应者 nextResponder**
 上面提到过，如果hit-test view不能够处理事件，则UIKit会将该事件传递给下一个responder，它是通过方法nextResponder找到下一个响应者的：  
 **- (UIResponder *)nextResponder; // UIResponder.h**  
-Returns the receiver's next responder, or nil if it has none.
+Returns the receiver's next responder, or nil if it has none.
 The UIResponder class does not store or set the next responder automatically, instead returning nil by default. Subclasses must override this method to set the next responder. UIView implements this method by returning the UIViewController object that manages it (if it has one) or its superview (if it doesn’t); UIViewController implements the method by returning its view’s superview; UIWindow returns the application object, and UIApplication returns nil.
 
 --------------------------------
