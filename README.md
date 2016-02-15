@@ -36,4 +36,5 @@ The UIResponder class does not store or set the next responder automatically, in
 
 --------------------------------
 
+可以参见Demo: ResponderChainDemo找找感觉
 
