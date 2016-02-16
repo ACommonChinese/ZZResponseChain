@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD75FFC1C7306CC0095F494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD75FFB1C7306CC0095F494 /* main.m */; };
+		DAD75FFF1C7306CC0095F494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD75FFE1C7306CC0095F494 /* AppDelegate.m */; };
+		DAD760021C7306CC0095F494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD760011C7306CC0095F494 /* ViewController.m */; };
+		DAD760051C7306CC0095F494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD760031C7306CC0095F494 /* Main.storyboard */; };
+		DAD760071C7306CC0095F494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD760061C7306CC0095F494 /* Assets.xcassets */; };
+		DAD7600A1C7306CC0095F494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD760081C7306CC0095F494 /* LaunchScreen.storyboard */; };
+		DAD760331C7308D10095F494 /* China.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAD760121C7308D10095F494 /* China.plist */; };
+		DAD760341C7308D10095F494 /* China.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760131C7308D10095F494 /* China.png */; };
+		DAD760351C7308D10095F494 /* 云南省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760141C7308D10095F494 /* 云南省.png */; };
+		DAD760361C7308D10095F494 /* 内蒙古自治区.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760151C7308D10095F494 /* 内蒙古自治区.png */; };
+		DAD760371C7308D10095F494 /* 北京市.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760161C7308D10095F494 /* 北京市.png */; };
+		DAD760381C7308D10095F494 /* 台湾省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760171C7308D10095F494 /* 台湾省.png */; };
+		DAD760391C7308D10095F494 /* 吉林省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760181C7308D10095F494 /* 吉林省.png */; };
+		DAD7603A1C7308D10095F494 /* 四川省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760191C7308D10095F494 /* 四川省.png */; };
+		DAD7603B1C7308D10095F494 /* 天津市.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7601A1C7308D10095F494 /* 天津市.png */; };
+		DAD7603C1C7308D10095F494 /* 宁夏回族自治区.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7601B1C7308D10095F494 /* 宁夏回族自治区.png */; };
+		DAD7603D1C7308D10095F494 /* 安徽省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7601C1C7308D10095F494 /* 安徽省.png */; };
+		DAD7603E1C7308D10095F494 /* 山东省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7601D1C7308D10095F494 /* 山东省.png */; };
+		DAD7603F1C7308D10095F494 /* 山西省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7601E1C7308D10095F494 /* 山西省.png */; };
+		DAD760401C7308D10095F494 /* 广东省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7601F1C7308D10095F494 /* 广东省.png */; };
+		DAD760411C7308D10095F494 /* 广西省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760201C7308D10095F494 /* 广西省.png */; };
+		DAD760421C7308D10095F494 /* 新疆维吾尔族自治区.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760211C7308D10095F494 /* 新疆维吾尔族自治区.png */; };
+		DAD760431C7308D10095F494 /* 江苏省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760221C7308D10095F494 /* 江苏省.png */; };
+		DAD760441C7308D10095F494 /* 江西省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760231C7308D10095F494 /* 江西省.png */; };
+		DAD760451C7308D10095F494 /* 河北省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760241C7308D10095F494 /* 河北省.png */; };
+		DAD760461C7308D10095F494 /* 河南省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760251C7308D10095F494 /* 河南省.png */; };
+		DAD760471C7308D10095F494 /* 浙江省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760261C7308D10095F494 /* 浙江省.png */; };
+		DAD760481C7308D10095F494 /* 海南省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760271C7308D10095F494 /* 海南省.png */; };
+		DAD760491C7308D10095F494 /* 湖北省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760281C7308D10095F494 /* 湖北省.png */; };
+		DAD7604A1C7308D10095F494 /* 湖南省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760291C7308D10095F494 /* 湖南省.png */; };
+		DAD7604B1C7308D10095F494 /* 甘肃省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7602A1C7308D10095F494 /* 甘肃省.png */; };
+		DAD7604C1C7308D10095F494 /* 福建省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7602B1C7308D10095F494 /* 福建省.png */; };
+		DAD7604D1C7308D10095F494 /* 西藏自治区.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7602C1C7308D10095F494 /* 西藏自治区.png */; };
+		DAD7604E1C7308D10095F494 /* 贵州省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7602D1C7308D10095F494 /* 贵州省.png */; };
+		DAD7604F1C7308D10095F494 /* 辽宁省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7602E1C7308D10095F494 /* 辽宁省.png */; };
+		DAD760501C7308D10095F494 /* 重庆市.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD7602F1C7308D10095F494 /* 重庆市.png */; };
+		DAD760511C7308D10095F494 /* 陕西省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760301C7308D10095F494 /* 陕西省.png */; };
+		DAD760521C7308D10095F494 /* 青海省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760311C7308D10095F494 /* 青海省.png */; };
+		DAD760531C7308D10095F494 /* 黑龙江省.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD760321C7308D10095F494 /* 黑龙江省.png */; };
+		DAD760591C7309990095F494 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD760561C7309990095F494 /* UIImage+ColorAtPixel.m */; };
+		DAD7605A1C7309990095F494 /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD760581C7309990095F494 /* OBShapedButton.m */; };
+		DAD7605D1C730B500095F494 /* OBShapedButton+attachObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7605C1C730B500095F494 /* OBShapedButton+attachObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAD75FF71C7306CC0095F494 /* 不规则图形点击.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "不规则图形点击.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD75FFB1C7306CC0095F494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD75FFD1C7306CC0095F494 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAD75FFE1C7306CC0095F494 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAD760001C7306CC0095F494 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAD760011C7306CC0095F494 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAD760041C7306CC0095F494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD760061C7306CC0095F494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD760091C7306CC0095F494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD7600B1C7306CC0095F494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD760121C7308D10095F494 /* China.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = China.plist; sourceTree = "<group>"; };
+		DAD760131C7308D10095F494 /* China.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = China.png; sourceTree = "<group>"; };
+		DAD760141C7308D10095F494 /* 云南省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云南省.png"; sourceTree = "<group>"; };
+		DAD760151C7308D10095F494 /* 内蒙古自治区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内蒙古自治区.png"; sourceTree = "<group>"; };
+		DAD760161C7308D10095F494 /* 北京市.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "北京市.png"; sourceTree = "<group>"; };
+		DAD760171C7308D10095F494 /* 台湾省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台湾省.png"; sourceTree = "<group>"; };
+		DAD760181C7308D10095F494 /* 吉林省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吉林省.png"; sourceTree = "<group>"; };
+		DAD760191C7308D10095F494 /* 四川省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "四川省.png"; sourceTree = "<group>"; };
+		DAD7601A1C7308D10095F494 /* 天津市.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天津市.png"; sourceTree = "<group>"; };
+		DAD7601B1C7308D10095F494 /* 宁夏回族自治区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宁夏回族自治区.png"; sourceTree = "<group>"; };
+		DAD7601C1C7308D10095F494 /* 安徽省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安徽省.png"; sourceTree = "<group>"; };
+		DAD7601D1C7308D10095F494 /* 山东省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "山东省.png"; sourceTree = "<group>"; };
+		DAD7601E1C7308D10095F494 /* 山西省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "山西省.png"; sourceTree = "<group>"; };
+		DAD7601F1C7308D10095F494 /* 广东省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广东省.png"; sourceTree = "<group>"; };
+		DAD760201C7308D10095F494 /* 广西省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广西省.png"; sourceTree = "<group>"; };
+		DAD760211C7308D10095F494 /* 新疆维吾尔族自治区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新疆维吾尔族自治区.png"; sourceTree = "<group>"; };
+		DAD760221C7308D10095F494 /* 江苏省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "江苏省.png"; sourceTree = "<group>"; };
+		DAD760231C7308D10095F494 /* 江西省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "江西省.png"; sourceTree = "<group>"; };
+		DAD760241C7308D10095F494 /* 河北省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "河北省.png"; sourceTree = "<group>"; };
+		DAD760251C7308D10095F494 /* 河南省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "河南省.png"; sourceTree = "<group>"; };
+		DAD760261C7308D10095F494 /* 浙江省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "浙江省.png"; sourceTree = "<group>"; };
+		DAD760271C7308D10095F494 /* 海南省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海南省.png"; sourceTree = "<group>"; };
+		DAD760281C7308D10095F494 /* 湖北省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "湖北省.png"; sourceTree = "<group>"; };
+		DAD760291C7308D10095F494 /* 湖南省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "湖南省.png"; sourceTree = "<group>"; };
+		DAD7602A1C7308D10095F494 /* 甘肃省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘肃省.png"; sourceTree = "<group>"; };
+		DAD7602B1C7308D10095F494 /* 福建省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "福建省.png"; sourceTree = "<group>"; };
+		DAD7602C1C7308D10095F494 /* 西藏自治区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "西藏自治区.png"; sourceTree = "<group>"; };
+		DAD7602D1C7308D10095F494 /* 贵州省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "贵州省.png"; sourceTree = "<group>"; };
+		DAD7602E1C7308D10095F494 /* 辽宁省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "辽宁省.png"; sourceTree = "<group>"; };
+		DAD7602F1C7308D10095F494 /* 重庆市.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重庆市.png"; sourceTree = "<group>"; };
+		DAD760301C7308D10095F494 /* 陕西省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陕西省.png"; sourceTree = "<group>"; };
+		DAD760311C7308D10095F494 /* 青海省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青海省.png"; sourceTree = "<group>"; };
+		DAD760321C7308D10095F494 /* 黑龙江省.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑龙江省.png"; sourceTree = "<group>"; };
+		DAD760551C7309990095F494 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		DAD760561C7309990095F494 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+		DAD760571C7309990095F494 /* OBShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBShapedButton.h; sourceTree = "<group>"; };
+		DAD760581C7309990095F494 /* OBShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBShapedButton.m; sourceTree = "<group>"; };
+		DAD7605B1C730B500095F494 /* OBShapedButton+attachObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OBShapedButton+attachObject.h"; sourceTree = "<group>"; };
+		DAD7605C1C730B500095F494 /* OBShapedButton+attachObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OBShapedButton+attachObject.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD75FF41C7306CC0095F494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD75FEE1C7306CC0095F494 = {
+			isa = PBXGroup;
+			children = (
+				DAD75FF91C7306CC0095F494 /* 不规则图形点击 */,
+				DAD75FF81C7306CC0095F494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD75FF81C7306CC0095F494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD75FF71C7306CC0095F494 /* 不规则图形点击.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD75FF91C7306CC0095F494 /* 不规则图形点击 */ = {
+			isa = PBXGroup;
+			children = (
+				DAD75FFD1C7306CC0095F494 /* AppDelegate.h */,
+				DAD75FFE1C7306CC0095F494 /* AppDelegate.m */,
+				DAD760001C7306CC0095F494 /* ViewController.h */,
+				DAD760011C7306CC0095F494 /* ViewController.m */,
+				DAD760031C7306CC0095F494 /* Main.storyboard */,
+				DAD760061C7306CC0095F494 /* Assets.xcassets */,
+				DAD760081C7306CC0095F494 /* LaunchScreen.storyboard */,
+				DAD7600B1C7306CC0095F494 /* Info.plist */,
+				DAD760541C7309790095F494 /* OBShapedButton */,
+				DAD760111C7308D10095F494 /* map */,
+				DAD75FFA1C7306CC0095F494 /* Supporting Files */,
+			);
+			path = "不规则图形点击";
+			sourceTree = "<group>";
+		};
+		DAD75FFA1C7306CC0095F494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD75FFB1C7306CC0095F494 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD760111C7308D10095F494 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				DAD760121C7308D10095F494 /* China.plist */,
+				DAD760131C7308D10095F494 /* China.png */,
+				DAD760141C7308D10095F494 /* 云南省.png */,
+				DAD760151C7308D10095F494 /* 内蒙古自治区.png */,
+				DAD760161C7308D10095F494 /* 北京市.png */,
+				DAD760171C7308D10095F494 /* 台湾省.png */,
+				DAD760181C7308D10095F494 /* 吉林省.png */,
+				DAD760191C7308D10095F494 /* 四川省.png */,
+				DAD7601A1C7308D10095F494 /* 天津市.png */,
+				DAD7601B1C7308D10095F494 /* 宁夏回族自治区.png */,
+				DAD7601C1C7308D10095F494 /* 安徽省.png */,
+				DAD7601D1C7308D10095F494 /* 山东省.png */,
+				DAD7601E1C7308D10095F494 /* 山西省.png */,
+				DAD7601F1C7308D10095F494 /* 广东省.png */,
+				DAD760201C7308D10095F494 /* 广西省.png */,
+				DAD760211C7308D10095F494 /* 新疆维吾尔族自治区.png */,
+				DAD760221C7308D10095F494 /* 江苏省.png */,
+				DAD760231C7308D10095F494 /* 江西省.png */,
+				DAD760241C7308D10095F494 /* 河北省.png */,
+				DAD760251C7308D10095F494 /* 河南省.png */,
+				DAD760261C7308D10095F494 /* 浙江省.png */,
+				DAD760271C7308D10095F494 /* 海南省.png */,
+				DAD760281C7308D10095F494 /* 湖北省.png */,
+				DAD760291C7308D10095F494 /* 湖南省.png */,
+				DAD7602A1C7308D10095F494 /* 甘肃省.png */,
+				DAD7602B1C7308D10095F494 /* 福建省.png */,
+				DAD7602C1C7308D10095F494 /* 西藏自治区.png */,
+				DAD7602D1C7308D10095F494 /* 贵州省.png */,
+				DAD7602E1C7308D10095F494 /* 辽宁省.png */,
+				DAD7602F1C7308D10095F494 /* 重庆市.png */,
+				DAD760301C7308D10095F494 /* 陕西省.png */,
+				DAD760311C7308D10095F494 /* 青海省.png */,
+				DAD760321C7308D10095F494 /* 黑龙江省.png */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		DAD760541C7309790095F494 /* OBShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				DAD760551C7309990095F494 /* UIImage+ColorAtPixel.h */,
+				DAD760561C7309990095F494 /* UIImage+ColorAtPixel.m */,
+				DAD760571C7309990095F494 /* OBShapedButton.h */,
+				DAD760581C7309990095F494 /* OBShapedButton.m */,
+				DAD7605B1C730B500095F494 /* OBShapedButton+attachObject.h */,
+				DAD7605C1C730B500095F494 /* OBShapedButton+attachObject.m */,
+			);
+			path = OBShapedButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD75FF61C7306CC0095F494 /* 不规则图形点击 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7600E1C7306CC0095F494 /* Build configuration list for PBXNativeTarget "不规则图形点击" */;
+			buildPhases = (
+				DAD75FF31C7306CC0095F494 /* Sources */,
+				DAD75FF41C7306CC0095F494 /* Frameworks */,
+				DAD75FF51C7306CC0095F494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "不规则图形点击";
+			productName = "不规则图形点击";
+			productReference = DAD75FF71C7306CC0095F494 /* 不规则图形点击.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD75FEF1C7306CC0095F494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiuWeiZhen;
+				TargetAttributes = {
+					DAD75FF61C7306CC0095F494 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DAD75FF21C7306CC0095F494 /* Build configuration list for PBXProject "不规则图形点击" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD75FEE1C7306CC0095F494;
+			productRefGroup = DAD75FF81C7306CC0095F494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD75FF61C7306CC0095F494 /* 不规则图形点击 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD75FF51C7306CC0095F494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7603A1C7308D10095F494 /* 四川省.png in Resources */,
+				DAD760331C7308D10095F494 /* China.plist in Resources */,
+				DAD760391C7308D10095F494 /* 吉林省.png in Resources */,
+				DAD7604A1C7308D10095F494 /* 湖南省.png in Resources */,
+				DAD760471C7308D10095F494 /* 浙江省.png in Resources */,
+				DAD760491C7308D10095F494 /* 湖北省.png in Resources */,
+				DAD7604B1C7308D10095F494 /* 甘肃省.png in Resources */,
+				DAD760481C7308D10095F494 /* 海南省.png in Resources */,
+				DAD7603E1C7308D10095F494 /* 山东省.png in Resources */,
+				DAD760421C7308D10095F494 /* 新疆维吾尔族自治区.png in Resources */,
+				DAD7604C1C7308D10095F494 /* 福建省.png in Resources */,
+				DAD7600A1C7306CC0095F494 /* LaunchScreen.storyboard in Resources */,
+				DAD760461C7308D10095F494 /* 河南省.png in Resources */,
+				DAD760361C7308D10095F494 /* 内蒙古自治区.png in Resources */,
+				DAD760071C7306CC0095F494 /* Assets.xcassets in Resources */,
+				DAD7603B1C7308D10095F494 /* 天津市.png in Resources */,
+				DAD760451C7308D10095F494 /* 河北省.png in Resources */,
+				DAD760531C7308D10095F494 /* 黑龙江省.png in Resources */,
+				DAD7604D1C7308D10095F494 /* 西藏自治区.png in Resources */,
+				DAD7603D1C7308D10095F494 /* 安徽省.png in Resources */,
+				DAD760411C7308D10095F494 /* 广西省.png in Resources */,
+				DAD7603C1C7308D10095F494 /* 宁夏回族自治区.png in Resources */,
+				DAD7604E1C7308D10095F494 /* 贵州省.png in Resources */,
+				DAD760351C7308D10095F494 /* 云南省.png in Resources */,
+				DAD7603F1C7308D10095F494 /* 山西省.png in Resources */,
+				DAD760341C7308D10095F494 /* China.png in Resources */,
+				DAD7604F1C7308D10095F494 /* 辽宁省.png in Resources */,
+				DAD760401C7308D10095F494 /* 广东省.png in Resources */,
+				DAD760521C7308D10095F494 /* 青海省.png in Resources */,
+				DAD760381C7308D10095F494 /* 台湾省.png in Resources */,
+				DAD760431C7308D10095F494 /* 江苏省.png in Resources */,
+				DAD760511C7308D10095F494 /* 陕西省.png in Resources */,
+				DAD760441C7308D10095F494 /* 江西省.png in Resources */,
+				DAD760501C7308D10095F494 /* 重庆市.png in Resources */,
+				DAD760051C7306CC0095F494 /* Main.storyboard in Resources */,
+				DAD760371C7308D10095F494 /* 北京市.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD75FF31C7306CC0095F494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7605A1C7309990095F494 /* OBShapedButton.m in Sources */,
+				DAD760021C7306CC0095F494 /* ViewController.m in Sources */,
+				DAD75FFF1C7306CC0095F494 /* AppDelegate.m in Sources */,
+				DAD7605D1C730B500095F494 /* OBShapedButton+attachObject.m in Sources */,
+				DAD75FFC1C7306CC0095F494 /* main.m in Sources */,
+				DAD760591C7309990095F494 /* UIImage+ColorAtPixel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAD760031C7306CC0095F494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD760041C7306CC0095F494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD760081C7306CC0095F494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD760091C7306CC0095F494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD7600C1C7306CC0095F494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD7600D1C7306CC0095F494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD7600F1C7306CC0095F494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "不规则图形点击/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhen.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD760101C7306CC0095F494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "不规则图形点击/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhen.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD75FF21C7306CC0095F494 /* Build configuration list for PBXProject "不规则图形点击" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7600C1C7306CC0095F494 /* Debug */,
+				DAD7600D1C7306CC0095F494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD7600E1C7306CC0095F494 /* Build configuration list for PBXNativeTarget "不规则图形点击" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7600F1C7306CC0095F494 /* Debug */,
+				DAD760101C7306CC0095F494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD75FEF1C7306CC0095F494 /* Project object */;
+}

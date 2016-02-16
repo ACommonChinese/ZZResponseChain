@@ -27,7 +27,7 @@ Any time a finger touches the screen, dragged on the screen, or lifts from the s
 Returns the receiver's next responder, or nil if it has none.
 The UIResponder class does not store or set the next responder automatically, instead returning nil by default. Subclasses must override this method to set the next responder. UIView implements this method by returning the UIViewController object that manages it (if it has one) or its superview (if it doesn’t); UIViewController implements the method by returning its view’s superview; UIWindow returns the application object, and UIApplication returns nil.
 
---------------------------------
+**************
 
 当自己定义的一个类想让他成为first responder时需要做两件事：  
 1. 重写 canBecomeFirstResponder 方法让他返回YES  
@@ -38,3 +38,9 @@ The UIResponder class does not store or set the next responder automatically, in
 
 可以参见Demo: ResponderChainDemo找找感觉
 
+--------------------------------
+
+另外，我写了一个demo: **不规则图形点击**，利用第三方库OBShapedButton，点击每一个省份响应，OBShapeButton的关键实现原理是根据响应者链拦截到触摸的点的坐标，获取图片所对应的触摸的点的rgb和透明度alpha, 如果alpha<0.1则不响应（让响应者链断掉），否则响应。这样就可以做到触摸到图片的空白处不响应(只要注意的是，图片采取png, 如果是jpg, 不存在透明度的说法，jpg的空白是用白色填充的，而png存在透明度)  
+
+**效果图：**
+![](./images/3.png)
