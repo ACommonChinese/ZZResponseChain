@@ -40,7 +40,7 @@ The UIResponder class does not store or set the next responder automatically, in
 
 --------------------------------
 
-另外，我写了一个demo: **不规则图形点击**，利用第三方库OBShapedButton，点击每一个省份响应，OBShapeButton的关键实现原理是根据响应者链拦截到触摸的点的坐标，获取图片所对应的触摸的点的rgb和透明度alpha, 如果alpha<0.1则不响应（让响应者链断掉），否则响应。这样就可以做到触摸到图片的空白处不响应(只要注意的是，图片采取png, 如果是jpg, 不存在透明度的说法，jpg的空白是用白色填充的，而png存在透明度)  
+另外，在本项目目录下，我写了一个demo: **不规则图形点击**，利用第三方库OBShapedButton，点击每一个省份响应，OBShapeButton的关键实现原理是根据响应者链拦截到触摸的点的坐标，获取图片所对应的触摸的点的rgb和透明度alpha, 如果alpha<0.1则不响应（让响应者链断掉），否则响应。这样就可以做到触摸到图片的空白处不响应(只要注意的是，图片采取png, 如果是jpg, 不存在透明度的说法，jpg的空白是用白色填充的，而png存在透明度)  
 
 **效果图：**    
 
